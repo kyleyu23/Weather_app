@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    row-gap: 10px;
+    font-size: 2rem;
+}
+
+body {
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(18, 18, 18, 100);
+    color: white;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#degree {
+    font-size: 300%;
+}
+
+input[type=submit] {
+    background-color: rgba(107, 107, 107, 100);
+    color: white;
+    border-radius: 5px;
+}
+
+input[name=city] {
+    background-color: rgba(59, 59, 59, 100);
+    color: white;
+    border: none;
+}
